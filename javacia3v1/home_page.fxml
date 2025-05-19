@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javacia3v1.HomePageController" stylesheets="@styles.css">
+    <VBox fx:id="body" alignment="CENTER" spacing="10" styleClass="product-page">
+        <HBox fx:id="headerBar" alignment="CENTER" spacing="10" styleClass="header-bar">
+            <Button fx:id="homeButton" text="Home" />
+            <TextField fx:id="searchBar" promptText="Search Here" />
+            <Button fx:id="searchButton" text="Search" />
+            <Button fx:id="signInButton" text="Sign In" />
+            <Button fx:id="cartButton" text="Cart" />
+        </HBox>
+        <VBox fx:id="productPage" spacing="10">
+            <!-- Product items will be added here dynamically -->
+        </VBox>
+        <HBox fx:id="footerBar" alignment="CENTER" spacing="10" styleClass="footer-bar">
+            <Button fx:id="buyNowButton" text="Buy Now" />
+            <Button fx:id="addToCartButton" text="Add to Cart" />
+        </HBox>
+    </VBox>
+</AnchorPane>

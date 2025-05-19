@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javacia3v1.UserInterface" stylesheets="@styles.css">
+    <GridPane fx:id="loginPage" alignment="CENTER" hgap="10" vgap="10" styleClass="login-page">
+        <Label text="User  Name" />
+        <TextField fx:id="userName" promptText="Type Your User Name Here" />
+        <Label text="Password" />
+        <PasswordField fx:id="password" promptText="Type Your Password Here" />
+        <Label fx:id="messageLabel" text="Welcome!" />
+        <Button fx:id="loginButton" text="Login" />
+    </GridPane>
+</AnchorPane>
